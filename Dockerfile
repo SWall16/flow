@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.10-alpine
 
 RUN apk add --no-cache --virtual .build-deps \
   gcc libxml2-dev libxslt-dev musl-dev linux-headers \
